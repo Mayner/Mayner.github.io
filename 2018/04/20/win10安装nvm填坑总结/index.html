@@ -20,7 +20,7 @@
 <meta property="og:image" content="http://yoursite.com/2018/04/20/win10安装nvm填坑总结/5.png">
 <meta property="og:image" content="http://yoursite.com/2018/04/20/win10安装nvm填坑总结/6.png">
 <meta property="og:image" content="http://yoursite.com/2018/04/20/win10安装nvm填坑总结/7.png">
-<meta property="og:updated_time" content="2018-04-20T10:15:20.782Z">
+<meta property="og:updated_time" content="2018-04-20T10:19:20.402Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="win10安装nvm填坑总结">
 <meta name="twitter:description" content="前言一直都在用nvm来切换node的版本，使用也都正常。最近在尝试入坑快应用的时候，在命令行输入 npm install -g hap-toolkit 安装之后查看版本号看是否安装成功，输入 hap -V ，结果显示： &amp;#39;hap&amp;#39; 不是内部或外部命令，也不是可运行的程序或批处理文件。然后进到项目根目录下运行 hap -V ，结果正常，想着应该是环境变量没配好，就试了一下安装别的脚手">
@@ -93,7 +93,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直都在用nvm来切换node的版本，使用也都正常。最近在尝试入坑快应用的时候，在命令行输入 <code>npm install -g hap-toolkit</code> 安装之后查看版本号看是否安装成功，输入 <code>hap -V</code> ，结果显示： <code>&#39;hap&#39; 不是内部或外部命令，也不是可运行的程序或批处理文件。</code>然后进到项目根目录下运行 <code>hap -V</code> ，结果正常，想着应该是环境变量没配好，就试了一下安装别的脚手架，都有一样的问题，捣鼓了一番环境变量，还是不行。最后决定卸载nvm重新安装，于是开始了nvm的安装填坑之路。此文目的在于记录自己安装nvm的过程和遇到的问题以及解决办法。</p>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直都在用nvm来切换node的版本，使用也都正常。最近在尝试入坑快应用的时候，在命令行输入 <code>npm install -g hap-toolkit</code> 安装之后查看版本号看是否安装成功，输入 <code>hap -V</code> ，结果显示： <code>&#39;hap&#39; 不是内部或外部命令，也不是可运行的程序或批处理文件。</code>然后进到项目根目录下运行 <code>hap -V</code> ，结果正常，想着应该是环境变量没配好，就试了一下安装别的脚手架，都有一样的问题，捣鼓了一番环境变量，还是不行。最后决定卸载nvm重新安装，于是开始了nvm的安装填坑之路。此文目的在于记录自己安装nvm的过程和遇到的问题以及解决办法。<a id="more"></a></p>
 <h2 id="nvm的作用"><a href="#nvm的作用" class="headerlink" title="nvm的作用"></a>nvm的作用</h2><p>nvm 是 node 的版本管理工具，它能帮助你快速安装并切换使用node的版本，为什么要切换node的版本？因为各种工具使用的 node 版本可能不一致，就会出现一些奇怪的问题。比如：快应用，就需要安装6.0以上版本，官方推荐使用的是 node v6.11.3，还强调不要使用8.0.*版本，因为这个版本内部 ZipStream 实现与 node-archive 包不兼容，会引起报错。也就是说，我们在平常工作中经常会碰到使用不同 node 版本，而每次切换版本挺麻烦还耗时，你要先卸载掉当前已经安装使用的 node 版本，然后重新下载安装需要的那个版本，这个过程是繁琐的；而且为了某些功能而去反复卸载下载安装不同的 node 版本，这是非常不划算的，nvm 就是专门解决这个问题的工具。</p>
 <h2 id="nvm的下载安装"><a href="#nvm的下载安装" class="headerlink" title="nvm的下载安装"></a>nvm的下载安装</h2><p>1.下载地址：<a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank" rel="noopener">nvm的下载地址</a>（如果你已经单独安装了node，建议先卸载）。<br>2.我选择的是1.1.5版本里 <code>nvm-setup.zip</code> 这个安装包。<br>3.解压后双击安装，此处注意以下两点：  </p>
 <img src="/2018/04/20/win10安装nvm填坑总结/1.png" title="This is an example image">  
@@ -117,7 +117,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/20/win10安装nvm填坑总结/" data-id="cjg7su7hz00007kmao6doe61a" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/04/20/win10安装nvm填坑总结/" data-id="cjg7sz7wf0001xcmaom45tf1b" class="article-share-link">Share</a>
       
       
     </footer>
