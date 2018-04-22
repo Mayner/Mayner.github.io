@@ -14,7 +14,7 @@
     
     
     
-    <title>Mayner&#39;s Blog | 前端技术沉淀</title>
+    <title>categories | Mayner&#39;s Blog | 前端技术沉淀</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
@@ -24,13 +24,14 @@
     <meta name="description" content="个人博客">
 <meta name="keywords" content="html、css、js、ajax、node、vue、react、npm、webpack、前端、小程序、单页面应用">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Mayner&#39;s Blog">
-<meta property="og:url" content="https://mayner.github.io/index.html">
+<meta property="og:title" content="categories">
+<meta property="og:url" content="https://mayner.github.io/categories/index.html">
 <meta property="og:site_name" content="Mayner&#39;s Blog">
 <meta property="og:description" content="个人博客">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-04-22T05:47:51.222Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mayner&#39;s Blog">
+<meta name="twitter:title" content="categories">
 <meta name="twitter:description" content="个人博客">
     
         <link rel="alternate" type="application/atom+xml" title="Mayner&#39;s Blog" href="/atom.xml">
@@ -66,7 +67,7 @@
     <div class="scroll-wrap flex-col">
       <ul class="nav">
         
-            <li class="waves-block waves-effect active">
+            <li class="waves-block waves-effect">
               <a href="/"  >
                 <i class="icon icon-lg icon-home"></i>
                 主页
@@ -112,7 +113,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">Mayner&#39;s Blog</div>
+        <div class="flex-col header-title ellipsis">Categories</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -131,75 +132,35 @@
         
     </div>
 </header>
-<header class="content-header index-header">
+<header class="content-header categories-header">
 
     <div class="container fade-scale">
-        <h1 class="title">Mayner&#39;s Blog</h1>
+        <h1 class="title">Categories</h1>
         <h5 class="subtitle">
-            
-                前端技术沉淀
             
         </h5>
     </div>
 
     
+<div class="tabs-bar container">
+    <nav class="tags-list">
+        <a href="/categories" style="-webkit-order:-1;order:-1" class="tags-list-item waves-effect waves-button waves-light
+             active">全部</a>
+        
+    </nav>
+    <!-- PC show more-->
+    <div class="tags-list-more">
+        <a href="javascript:;" onclick="BLOG.tabBar(this)" class="action tags-list-item waves-effect waves-circle waves-light"><i class="icon icon-ellipsis-h"></i></a>
+    </div>
+</div>
+
 
 
 </header>
 
-<div class="container body-wrap">
-
-    <ul class="post-list">
+<div class="container body-wrap fade">
     
-        <li class="post-list-item fade">
-            <article id="post-win10安装nvm填坑总结"
-  class="article-card article-type-post" itemprop="blogPost">
-
-    <div class="post-meta">
-        <time class="post-time" title="2018-04-20 18:11:27" datetime="2018-04-20T10:11:27.000Z"  itemprop="datePublished">2018-04-20</time>
-
-        
-
-
-    </div>
-
     
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2018/04/20/win10安装nvm填坑总结/">win10安装nvm填坑总结</a>
-    </h3>
-  
-
-
-
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        前言一直都在用nvm来切换node的版本，使用也都正常。最近在尝试入坑快应用的时候，在命令行输入 npm install -g hap-toolkit 安装之后查看版本号看是否安装成功，输入 hap -V ，结果显示： &#39;hap&#39; 不是内部或外部命令，也不是可运行的程序或批处理文件。然后进到项目根目录下运行 hap -V ，结果正常，想着应该是环境变量没配好，就试了一下安装别的脚手架，都有一样的问题，捣鼓了一番环境变量，还是不行。最后决定卸载nvm重新安装，于是开始了nvm的安装填坑之路。此文目的在于记录自己安装nvm的过程和遇到的问题以及解决办法。
-    
-
-        <a href="/2018/04/20/win10安装nvm填坑总结/" class="post-more waves-effect waves-button">
-            阅读全文…
-        </a>
-    </div>
-    
-    <div class="post-footer">
-        
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/node-js/">node.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nvm/">nvm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/win10/">win10</a></li></ul>
-
-    </div>
-    
-</article>
-
-        </li>
-    
-    </ul>
-
-    
-
 </div>
 
         <footer class="footer">
@@ -241,7 +202,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://mayner.github.io/&title=Mayner's Blog&pic=https://mayner.github.io/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://mayner.github.io/categories/&title=《categories》 — Mayner's Blog&pic=https://mayner.github.io/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -251,22 +212,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://mayner.github.io/&title=Mayner's Blog&source=个人博客" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://mayner.github.io/categories/&title=《categories》 — Mayner's Blog&source=个人博客" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://mayner.github.io/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://mayner.github.io/categories/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=Mayner's Blog&url=https://mayner.github.io/&via=https://mayner.github.io" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《categories》 — Mayner's Blog&url=https://mayner.github.io/categories/&via=https://mayner.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://mayner.github.io/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://mayner.github.io/categories/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -277,7 +238,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAAAAAAZai4+AAABVUlEQVR42u3aMRLCMAxE0dz/0qFlBix2Jbsg+10xQJJHgSRLvi553Yu1+vTz/evEggXrQay7XO/fqa+t768/CxasZJZ+u/onra7VnwULFiydtSLqXFiwYPVYCqhO5LBgwapZuzaobuDYUMvDgvUIlt7Vmb8+0t+CBevPWXdrKclYDwpf7g8LVhjL/ZPrDdwNaR4WrHiW3qitA0dvdgkLViZLausI39nQxoUFK5J1biM6StWwYIWxJuHAHbS44xZYsHJY+oEePUzoQ5qlARasMJaejN26u0mBBSuSpSRafZuqj1KMWh4WrABWb1M6KbKV1A4LVhqrdxSgV2QbYxhYsMJYbhE8QfcaT7Bg5bDcAndyLM8owWHBimS5c3/lcM+RWh4WrHiWGzj0Y3awYMFyA4SyZVVCwI9rYcGKZPWaQW5719jcwoIVxpofINDHolJogAUri/UCM4Rz27kQUvAAAAAASUVORK5CYII=" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABwElEQVR42u3aQY7DMAgF0N7/0p1tpVHTDwRrOnpeRZXjPHeBDPjxiMfzZbz+kj+/W/OxMXBxccfc5+Wocq9Zyfrv5uDi4p7nJp+ZhLzfKyTr4+Lifi+3F/hwcXH/E/d6/ocDCi4u7ldxk+Sn+la+mZVcDRcXd8DNU5q955X6Li4ubov7LI5qc6UXtt6+i4uLe4SbB5Tq5/N1quVXXFzcbW4vxGzfBPkQwnBxcZe5hWg3TmPmBx1cXNzz3Lv2mpRW8/Sp2VDBxcUdcycJSdJuqQayKFfDxcVd4yaTep9sXq2o5mq4uLhr3Gt6LzBVU6BCwRQXF3eZ2wwowYGmet2qEApxcXGXuXm7NC+hJv9QXq0pN1lxcXHH3LxNcn18yZsuk+uhuLi4J7l5wJqUVnubbxZHcHFxF7iTtmuvQZs3X3Fxcc9z81+iFKU4JzoS4eLiLnMnl7HuKqnk28DFxT3DrZYq7tpYXjppbgYXF3fMrV6uSkJVlVJOfnBxcY9wqy2NSbmk2krBxcX9Fu5dlyqaGRsuLu4f4/aSnEn5YxTIcHFxB9xJ6/TeQuqHUIiLi3uEWw0lvYJILxSO6ru4uLgd7g+edSAe2ntrGQAAAABJRU5ErkJggg==" alt="微信分享二维码">
 </div>
 
 

@@ -21,17 +21,18 @@
     
     
     <meta name="keywords" content="html、css、js、ajax、node、vue、react、npm、webpack、前端、小程序、单页面应用">
-    <meta name="description" content="个人博客">
+    <meta name="description" content="公益404">
 <meta name="keywords" content="html、css、js、ajax、node、vue、react、npm、webpack、前端、小程序、单页面应用">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Mayner&#39;s Blog">
-<meta property="og:url" content="https://mayner.github.io/index.html">
+<meta property="og:url" content="https://mayner.github.io/404.html">
 <meta property="og:site_name" content="Mayner&#39;s Blog">
-<meta property="og:description" content="个人博客">
+<meta property="og:description" content="公益404">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-04-22T15:32:12.768Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mayner&#39;s Blog">
-<meta name="twitter:description" content="个人博客">
+<meta name="twitter:description" content="公益404">
     
         <link rel="alternate" type="application/atom+xml" title="Mayner&#39;s Blog" href="/atom.xml">
     
@@ -47,7 +48,7 @@
 <body>
     <div id="loading" class="active"></div>
 
-    <aside id="menu"  >
+    <aside id="menu" class="hide" >
   <div class="inner flex-row-vertical">
     <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
         <i class="icon icon-lg icon-close"></i>
@@ -66,7 +67,7 @@
     <div class="scroll-wrap flex-col">
       <ul class="nav">
         
-            <li class="waves-block waves-effect active">
+            <li class="waves-block waves-effect">
               <a href="/"  >
                 <i class="icon icon-lg icon-home"></i>
                 主页
@@ -112,7 +113,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">Mayner&#39;s Blog</div>
+        <div class="flex-col header-title ellipsis"></div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -131,13 +132,11 @@
         
     </div>
 </header>
-<header class="content-header index-header">
+<header class="content-header page-header">
 
     <div class="container fade-scale">
-        <h1 class="title">Mayner&#39;s Blog</h1>
+        <h1 class="title"></h1>
         <h5 class="subtitle">
-            
-                前端技术沉淀
             
         </h5>
     </div>
@@ -147,58 +146,87 @@
 
 </header>
 
+
 <div class="container body-wrap">
+    <article class="page-article fade" itemprop="blogPage">
+        <div class="post-content page-content" id="page-content" itemprop="pageContent">
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>公益404</title>
+</head>
+<body>
+<script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8" homepageurl="https://mayner.github.io" homepagename="回到我的主页">
+</script>
+</body>
+</html>
+        </div>
 
-    <ul class="post-list">
-    
-        <li class="post-list-item fade">
-            <article id="post-win10安装nvm填坑总结"
-  class="article-card article-type-post" itemprop="blogPost">
+        
 
-    <div class="post-meta">
-        <time class="post-time" title="2018-04-20 18:11:27" datetime="2018-04-20T10:11:27.000Z"  itemprop="datePublished">2018-04-20</time>
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
 
         
 
 
-    </div>
 
+
+
+<section class="comments" id="comments">
+    <!-- UY BEGIN -->
+    <div id="uyan_frame"></div>
+    <script src="http://v2.uyan.cc/code/uyan.js?uid=true"></script>
+    <!-- UY END -->
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </article>
     
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2018/04/20/win10安装nvm填坑总结/">win10安装nvm填坑总结</a>
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        谢谢大爷~
+        <i class="icon icon-quote-right"></i>
     </h3>
-  
-
-
-
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        前言一直都在用nvm来切换node的版本，使用也都正常。最近在尝试入坑快应用的时候，在命令行输入 npm install -g hap-toolkit 安装之后查看版本号看是否安装成功，输入 hap -V ，结果显示： &#39;hap&#39; 不是内部或外部命令，也不是可运行的程序或批处理文件。然后进到项目根目录下运行 hap -V ，结果正常，想着应该是环境变量没配好，就试了一下安装别的脚手架，都有一样的问题，捣鼓了一番环境变量，还是不行。最后决定卸载nvm重新安装，于是开始了nvm的安装填坑之路。此文目的在于记录自己安装nvm的过程和遇到的问题以及解决办法。
-    
-
-        <a href="/2018/04/20/win10安装nvm填坑总结/" class="post-more waves-effect waves-button">
-            阅读全文…
-        </a>
-    </div>
-    
-    <div class="post-footer">
+    <div class="reward-content">
         
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/node-js/">node.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nvm/">nvm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/win10/">win10</a></li></ul>
-
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/wechat.jpg" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/wechat.jpg" data-alipay="/img/alipay.jpg">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
+        
     </div>
-    
-</article>
+</div>
 
-        </li>
-    
-    </ul>
-
-    
 
 </div>
 
@@ -241,7 +269,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://mayner.github.io/&title=Mayner's Blog&pic=https://mayner.github.io/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://mayner.github.io/404.html&title=Mayner's Blog&pic=https://mayner.github.io/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -251,22 +279,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://mayner.github.io/&title=Mayner's Blog&source=个人博客" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://mayner.github.io/404.html&title=Mayner's Blog&source=个人博客" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://mayner.github.io/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://mayner.github.io/404.html" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=Mayner's Blog&url=https://mayner.github.io/&via=https://mayner.github.io" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=Mayner's Blog&url=https://mayner.github.io/404.html&via=https://mayner.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://mayner.github.io/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://mayner.github.io/404.html" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -277,7 +305,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAAAAAAZai4+AAABVUlEQVR42u3aMRLCMAxE0dz/0qFlBix2Jbsg+10xQJJHgSRLvi553Yu1+vTz/evEggXrQay7XO/fqa+t768/CxasZJZ+u/onra7VnwULFiydtSLqXFiwYPVYCqhO5LBgwapZuzaobuDYUMvDgvUIlt7Vmb8+0t+CBevPWXdrKclYDwpf7g8LVhjL/ZPrDdwNaR4WrHiW3qitA0dvdgkLViZLausI39nQxoUFK5J1biM6StWwYIWxJuHAHbS44xZYsHJY+oEePUzoQ5qlARasMJaejN26u0mBBSuSpSRafZuqj1KMWh4WrABWb1M6KbKV1A4LVhqrdxSgV2QbYxhYsMJYbhE8QfcaT7Bg5bDcAndyLM8owWHBimS5c3/lcM+RWh4WrHiWGzj0Y3awYMFyA4SyZVVCwI9rYcGKZPWaQW5719jcwoIVxpofINDHolJogAUri/UCM4Rz27kQUvAAAAAASUVORK5CYII=" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABw0lEQVR42u3aQYoDIRAF0Ln/pXtgtkH5ZanpgecqpEn7zOKjVf78xOP5G6PvP0fnnRsGLi5um/tMx+erk8+jp/PfRovHxcW9yJ0HTb6A0R9RXerwe1xc3Jdx8/jrhBouLu7/4uaRtLYAXFzct3GTw08nqpKtz+azGi4uboNbLW6e+HywvouLi1vkPsUxD6P86eLsuLi4V7hJC2Q+Qd5ATY5SUczh4uIe5iabjP6hqH+/AhcX9ya3Wr6sFjfXAisKVlxc3GPcpz2q1y825C4uLu5XucnEu9ot0by4uLhXuGut1nncJEeXOSsKPlxc3GPcfLI8mJKj1Fp7BhcX9z63etRJFpA0UfKyLC4u7k1u3sesXrnIDzZRROLi4l7kdoIs2dysPd3QSsHFxV3idrYgnUjKiybDhgouLu4xbj9o1poxeVkEFxf3W9x+q6O8TVm6ioGLi3uTu3b4OVEkbfWBcXFxN3GrgdIvkubxl4QjLi7uOW4/vO40a3Fxce9z88Jl0kSpBmK+YcLFxX0bN6dXL20UfoWLi/tKbmuDkjdORu/BxcW9yO0cVKqgasAtlkVwcXEb3GrBNF9MvrxynOHi4p7i/gKUOmzDtdE+ugAAAABJRU5ErkJggg==" alt="微信分享二维码">
 </div>
 
 
@@ -285,7 +313,7 @@
 
     <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
 <script>
-var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
 
 
 </script>
