@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Mayner&#39;s Blog</title>
   <icon>https://www.gravatar.com/avatar/1e4d984d6da30ace22c49eb2e5a6eb08</icon>
-  <subtitle>前端技术沉淀</subtitle>
+  <subtitle>Web前端技术沉淀</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mayner.github.io/"/>
