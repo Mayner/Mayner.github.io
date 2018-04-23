@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://mayner.github.io/2018/04/20/nvm安装过程总结/5.png">
 <meta property="og:image" content="https://mayner.github.io/2018/04/20/nvm安装过程总结/6.png">
 <meta property="og:image" content="https://mayner.github.io/2018/04/20/nvm安装过程总结/7.png">
-<meta property="og:updated_time" content="2018-04-23T05:35:59.269Z">
+<meta property="og:updated_time" content="2018-04-23T06:04:23.035Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="nvm安装过程总结">
 <meta name="twitter:description" content="一直以来都在用 nvm 来管理我的 node 的版本，然而，最近在尝试入坑快应用时，使用 npm install -g hap-toolkit 安装快应用脚手架，接着查看版本号检测是否安装成功，输入 hap -V ，结果显示： &amp;#39;hap&amp;#39; 不是内部或外部命令，也不是可运行的程序或批处理文件。但进到 hap-toolkit 目录下运行 hap -V ，结果正常，想着应该是环境变量没配">
@@ -189,7 +189,7 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <p>一直以来都在用 nvm 来管理我的 node 的版本，然而，最近在尝试入坑快应用时，使用 <code>npm install -g hap-toolkit</code> 安装快应用脚手架，接着查看版本号检测是否安装成功，输入 <code>hap -V</code> ，结果显示： <code>&#39;hap&#39; 不是内部或外部命令，也不是可运行的程序或批处理文件。</code>但进到 <code>hap-toolkit</code> 目录下运行 <code>hap -V</code> ，结果正常，想着应该是环境变量没配好，就试了一下安装别的工具，果然也出现同样的问题，捣鼓了一番环境变量，还是不行。最后决定卸载nvm重新安装，于是便开始了 nvm 的安装填坑之路。此文旨在记录本人安装 nvm 的过程以及在安装过程中遇到的一点小问题。<a id="more"></a></p>
+            <p>一直以来都在用 nvm 来管理我的 node 的版本，然而，最近在尝试入坑快应用时，使用 <code>npm install -g hap-toolkit</code> 安装快应用脚手架，接着查看版本号检测是否安装成功，输入 <code>hap -V</code> ，结果显示： <code>&#39;hap&#39; 不是内部或外部命令，也不是可运行的程序或批处理文件。</code>但进到 <code>hap-toolkit</code> 目录下运行 <code>hap -V</code> ，结果正常，想着应该是环境变量没配好，就试了一下安装别的工具，果然也出现同样的问题，捣鼓了一番环境变量，还是不行。最后决定卸载nvm重新安装，于是便开始了 nvm 的安装填坑之路。此文旨在记录本人安装 nvm 的过程以及在安装过程中遇到的一点小问题。</p>
 <h2 id="nvm的作用"><a href="#nvm的作用" class="headerlink" title="nvm的作用"></a>nvm的作用</h2><p>nvm 是 node 的版本管理工具，它能帮助你快速安装并切换使用node的版本，为什么要切换node的版本？因为各种工具使用的 node 版本可能不一致，就会出现一些奇怪的问题。比如：快应用，就需要安装6.0以上版本，官方推荐使用的是 node v6.11.3，还强调不要使用8.0.*版本，因为这个版本内部 ZipStream 实现与 node-archive 包不兼容，会引起报错。也就是说，我们在平常工作中经常会碰到使用不同 node 版本，而每次切换版本挺麻烦还耗时，你要先卸载掉当前已经安装使用的 node 版本，然后重新下载安装需要的那个版本，这个过程是繁琐的；而且为了某些功能而去反复卸载下载安装不同的 node 版本，这是非常不划算的，nvm 就是专门解决这个问题的工具。</p>
 <h2 id="nvm的下载安装"><a href="#nvm的下载安装" class="headerlink" title="nvm的下载安装"></a>nvm的下载安装</h2><p>1.下载地址：<a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank" rel="noopener">nvm的下载地址</a>（如果你已经单独安装了node，建议先卸载）。<br>2.我选择的是1.1.5版本里 <code>nvm-setup.zip</code> 这个安装包。<br>3.解压后双击安装，此处注意以下两点：  </p>
 <img src="/2018/04/20/nvm安装过程总结/1.png" title="This is an example image">  
@@ -219,7 +219,7 @@
     <div class="content">
         
 <span class="post-time">
-    最后更新时间：<time datetime="2018-04-23T05:35:59.269Z" itemprop="dateUpdated">2018-04-23 13:35:59</time>
+    最后更新时间：<time datetime="2018-04-23T06:04:23.035Z" itemprop="dateUpdated">2018-04-23 14:04:23</time>
 </span><br>
 
 
@@ -261,7 +261,7 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://mayner.github.io/2018/04/20/nvm安装过程总结/&title=《nvm安装过程总结》 — Mayner's Blog&source=一直以来都在用 nvm 来管理我的 node 的版本，然而，最近在尝试入坑快应用时，使用 npm install -g hap-toolkit 安装快应用..." data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://mayner.github.io/2018/04/20/nvm安装过程总结/&title=《nvm安装过程总结》 — Mayner's Blog&source=个人博客" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -395,7 +395,7 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://mayner.github.io/2018/04/20/nvm安装过程总结/&title=《nvm安装过程总结》 — Mayner's Blog&source=一直以来都在用 nvm 来管理我的 node 的版本，然而，最近在尝试入坑快应用时，使用 npm install -g hap-toolkit 安装快应用..." data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://mayner.github.io/2018/04/20/nvm安装过程总结/&title=《nvm安装过程总结》 — Mayner's Blog&source=个人博客" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
